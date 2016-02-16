@@ -72,7 +72,8 @@
                     android:maxLength="4"
                     android:textColor="#000000"
                     android:textColorHint="#363636"
-                    android:focusable="true"/>
+                    android:focusable="true"
+                    android:contentDescription="Enter the year of your birth. Edit text box."/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>
@@ -98,7 +99,8 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/alert_detail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:contentDescription="Check off if you want notifications when entering areas with high harassment reports."/>
 
         </LinearLayout>
 
@@ -132,7 +134,8 @@
                     style="@style/toggle_button"
                     android:layout_marginRight="3dp"
                     android:textOff="Man"
-                    android:textOn="Man" />
+                    android:textOn="Man"
+                    android:contentDescription="Select if you are a man"/>
 
                 <ToggleButton
                     android:id="@+id/woman"
@@ -142,7 +145,8 @@
                     android:layout_marginLeft="3dp"
                     android:layout_marginRight="3dp"
                     android:textOff="Woman"
-                    android:textOn="Woman" />
+                    android:textOn="Woman"
+                    android:contentDescription="Select if you are a woman."/>
 
                 <ToggleButton
                     android:id="@+id/lesbian"
@@ -151,7 +155,8 @@
                     style="@style/toggle_button"
                     android:layout_marginLeft="3dp"
                     android:textOff="Lesbian"
-                    android:textOn="Lesbian" />
+                    android:textOn="Lesbian"
+                    android:contentDescription="Select if you are Lesbian"/>
 
                 </LinearLayout>
 
@@ -169,7 +174,8 @@
                     style="@style/toggle_button"
                     android:layout_marginRight="3dp"
                     android:textOff="Person of Color"
-                    android:textOn="Person of Color" />
+                    android:textOn="Person of Color"
+                    android:contentDescription="Select if you are a person of color"/>
 
                 <ToggleButton
                     android:id="@+id/trans"
@@ -178,7 +184,8 @@
                     style="@style/toggle_button"
                     android:layout_marginLeft="3dp"
                     android:textOff="Transgender"
-                    android:textOn="Transgender" />
+                    android:textOn="Transgender"
+                    android:contentDescription="Select if you are transgender"/>
 
             </LinearLayout>
 
@@ -196,7 +203,8 @@
                     style="@style/toggle_button"
                     android:layout_marginRight="3dp"
                     android:textOff="Gay"
-                    android:textOn="Gay" />
+                    android:textOn="Gay"
+                    android:contentDescription="Select if you are gay"/>
 
                 <ToggleButton
                     android:id="@+id/bisexual"
@@ -206,7 +214,8 @@
                     android:layout_marginLeft="3dp"
                     android:layout_marginRight="3dp"
                     android:textOff="Bisexual"
-                    android:textOn="Bisexual" />
+                    android:textOn="Bisexual"
+                    android:contentDescription="Select if you are bi"/>
 
                 <ToggleButton
                     android:id="@+id/minor"
@@ -215,7 +224,8 @@
                     style="@style/toggle_button"
                     android:layout_marginLeft="3dp"
                     android:textOff="Minor"
-                    android:textOn="Minor" />
+                    android:textOn="Minor"
+                    android:contentDescription="Select if you are a minor"/>
 
             </LinearLayout>
 
@@ -233,7 +243,8 @@
                     style="@style/toggle_button"
                     android:layout_marginRight="3dp"
                     android:textOff="Queer"
-                    android:textOn="Queer" />
+                    android:textOn="Queer"
+                    android:contentDescription="Select if you are a queer"/>
 
                 <ToggleButton
                     android:id="@+id/other"
@@ -242,7 +253,8 @@
                     style="@style/toggle_button"
                     android:layout_marginLeft="3dp"
                     android:textOff="Other"
-                    android:textOn="Other" />
+                    android:textOn="Other"
+                    android:contentDescription="Select if you consider yourself any other category"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -258,6 +270,7 @@
             android:textSize="15dp"
             android:padding="20dp"
             style="@style/button"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:contentDescription="Log out button."/>
     </LinearLayout>
 </ScrollView>

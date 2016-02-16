@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="4"
-            android:text="General Overview" />
+            android:text="General Overview"
+            android:contentDescription="See the general overview"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -39,7 +40,8 @@
             android:inputType="number"
             android:maxLength="5"
             android:textSize="18sp"
-            android:focusable="true"/>
+            android:focusable="true"
+            android:contentDescription="Enter your zip code."/>
 
     </LinearLayout>
 
