@@ -58,6 +58,7 @@
             android:layout_marginStart="10dp"
             app:materialIcon="arrow_left_bold"
             app:materialIconColor="#ffffff"
+            android:contentDescription="Back Button"
             />
 
         <TextView
