@@ -1,0 +1,34 @@
+'''' java
+signup_fragment.xml
+
+<ImageView
+android:contentDescription="Blazon Logo"/>
+
+<ImageButton
+android:contentDescription="Sign up with your Facebook account."/>
+
+<ImageButton
+android:contentDescription="Sign up with your Twitter account."/>
+
+<ImageButton
+android:contentDescription="Sign up with your Google Plus account."/>
+
+<!-- End of signup_fragment.xml -->
+
+
+<!-- In pie_chart_fragment.xml -->
+<net.steamcrafted.materialiconlib.MaterialIconView
+android:contentDescription="Right Arrow"/>
+<!-- End pie_chart_fragment.xml -->
+
+
+
+<!-- In bar_chart_fragment.xml -->
+<net.steamcrafted.materialiconlib.MaterialIconView
+android:contentDescription="Left Arrow"/>
+<!-- End bar_chart_fragment.xml -->
+
+
+
+
+''''
