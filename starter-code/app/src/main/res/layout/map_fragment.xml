@@ -23,7 +23,8 @@
             android:layout_weight="3"
             android:text="Filter"
             android:textStyle="bold"
-            android:textColor="@color/primary" />
+            android:textColor="@color/primary"
+            android:contentDescription="This is the filter button"/>
 
         <ImageView
             android:layout_width="0dp"
@@ -51,7 +52,8 @@
                 android:hint="Search by location                                     "
                 android:imeOptions="actionGo"
                 android:textSize="18dp"
-                android:focusable="true"/>
+                android:focusable="true"
+                android:contentDescription="This is a text box"/>
 
         </HorizontalScrollView>
 

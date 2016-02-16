@@ -37,7 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/chart_header"
-                android:background="#FFFFFF" />
+                android:background="#FFFFFF"
+                android:contentDescription="This is a bar chart for the group of people"/>
 
         </RelativeLayout>
 
@@ -58,6 +59,7 @@
             android:layout_marginStart="10dp"
             app:materialIcon="arrow_left_bold"
             app:materialIconColor="#ffffff"
+            android:contentDescription="Button for going back to the pie chart"
             />
 
         <TextView

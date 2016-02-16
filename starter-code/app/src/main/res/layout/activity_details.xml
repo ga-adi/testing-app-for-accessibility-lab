@@ -140,6 +140,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/where"
+                android:contentDescription="This image contains a globe icon"
                 />
 
             <ImageView
@@ -149,6 +150,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/when"
+                android:contentDescription="This image contains a clock icon"
                 />
 
             <ImageView
@@ -158,6 +160,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/who"
+                android:contentDescription="This image contains a person icon"
                 />
 
             <ImageView
@@ -167,6 +170,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/what"
+                android:contentDescription="This image contains an alert icon"
                 />
 
         </LinearLayout>
