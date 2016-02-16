@@ -140,6 +140,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/where"
+                android:contentDescription="Location icon"
                 />
 
             <ImageView
@@ -149,6 +150,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/when"
+                android:contentDescription="Time icon"
                 />
 
             <ImageView
@@ -158,6 +160,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/who"
+                android:contentDescription="Who icon"
                 />
 
             <ImageView
@@ -167,6 +170,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/what"
+                android:contentDescription="What happened icon"
                 />
 
         </LinearLayout>

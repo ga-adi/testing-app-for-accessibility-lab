@@ -25,6 +25,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/smallwhitelogo"
-        android:paddingTop="10dp" />
+        android:paddingTop="10dp"
+        android:contentDescription="Speakerphone icon"/>
     </LinearLayout>
 </LinearLayout>
