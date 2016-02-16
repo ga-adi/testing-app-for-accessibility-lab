@@ -11,7 +11,8 @@
         style="@style/card"
         card_view:cardBackgroundColor="#FFFFFF"
         card_view:cardCornerRadius="10dp"
-        card_view:cardElevation="6dp">
+        card_view:cardElevation="6dp"
+        android:contentDescription="Percentage of harassment among groups of people">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -37,7 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/chart_header"
-                android:background="#FFFFFF" />
+                android:background="#FFFFFF"
+                android:contentDescription="Bar chart of the harassment percentages."/>
 
         </RelativeLayout>
 
@@ -58,6 +60,7 @@
             android:layout_marginStart="10dp"
             app:materialIcon="arrow_left_bold"
             app:materialIconColor="#ffffff"
+            android:contentDescription="Button to go back to pie chart"
             />
 
         <TextView

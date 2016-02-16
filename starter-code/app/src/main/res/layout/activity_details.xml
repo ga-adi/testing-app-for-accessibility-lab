@@ -140,6 +140,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/where"
+                android:contentDescription="Where is this?"
                 />
 
             <ImageView
@@ -149,6 +150,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/when"
+                android:contentDescription="When is this?"
                 />
 
             <ImageView
@@ -158,6 +160,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/who"
+                android:contentDescription="Who is this?"
                 />
 
             <ImageView
@@ -167,6 +170,7 @@
                 android:layout_weight="1"
                 android:padding="27dp"
                 android:src="@drawable/what"
+                android:contentDescription="What is this?"
                 />
 
         </LinearLayout>

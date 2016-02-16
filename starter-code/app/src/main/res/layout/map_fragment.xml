@@ -23,7 +23,8 @@
             android:layout_weight="3"
             android:text="Filter"
             android:textStyle="bold"
-            android:textColor="@color/primary" />
+            android:textColor="@color/primary"
+            android:contentDescription="Filter the search results"/>
 
         <ImageView
             android:layout_width="0dp"
