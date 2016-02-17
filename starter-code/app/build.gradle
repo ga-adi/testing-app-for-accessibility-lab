@@ -5,8 +5,8 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 def releasePassword = properties.getProperty('releasePassword')
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "charlyn23.c4q.nyc.projectx"

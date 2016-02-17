@@ -49,6 +49,7 @@
                     android:id="@+id/where"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:contentDescription="Where"
                     style="@style/detail_info"/>
             </LinearLayout>
 
@@ -72,6 +73,7 @@
                     android:id="@+id/when"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:contentDescription="When"
                     style="@style/detail_info"/>
             </LinearLayout>
 

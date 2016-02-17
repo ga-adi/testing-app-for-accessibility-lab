@@ -56,6 +56,7 @@
                 style="@style/profile_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="This is your age"
                 android:text="Age" />
 
             <android.support.design.widget.TextInputLayout
@@ -72,6 +73,7 @@
                     android:maxLength="4"
                     android:textColor="#000000"
                     android:textColorHint="#363636"
+                    android:contentDescription="This is your birth year"
                     android:focusable="true"/>
             </android.support.design.widget.TextInputLayout>
 
@@ -91,7 +93,7 @@
                 style="@style/profile_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/blazon_alert" />
+                android:text="@string/blazon_alert"/>
 
             <CheckBox
                 android:id="@+id/enable_geofence"
