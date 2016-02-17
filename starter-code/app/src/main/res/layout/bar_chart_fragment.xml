@@ -18,13 +18,16 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:contentDescription="no harassment"
                 android:id="@+id/no_harassment_message_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/no_harassment"
-                style="@style/no_harassment_message"/>
+                style="@style/no_harassment_message"
+                />
 
             <TextView
+                android:contentDescription="Groups of people affected"
                 android:id="@+id/chart_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,7 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/chart_header"
-                android:background="#FFFFFF" />
+                android:background="#FFFFFF"
+                android:contentDescription="BarChart Information"/>
 
         </RelativeLayout>
 

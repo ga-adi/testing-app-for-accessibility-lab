@@ -14,6 +14,7 @@
         android:background="@color/primary_dark">
 
     <TextView android:id="@+id/text"
+        android:contentDescription="Thanks for adding your voice to the movement"
         android:text="\nThanks for adding your voice to the movement.\n Stay tuned for updates!\n"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
         android:paddingLeft="10dp" />
 
     <ImageView
+        android:contentDescription="Thanks for adding your voice to the movement"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/smallwhitelogo"

@@ -16,19 +16,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
             <TextView
+            <!--added additional accessibility-->
                 android:id="@+id/no_harassment_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/no_harassment"
-                style="@style/no_harassment_message" />
+                style="@style/no_harassment_message"
+                android:contentDescription="No harassment"/>
 
             <TextView
+                <!--added additional accessibility-->
                 android:id="@+id/chart_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/types_of_harassment"
-                style="@style/chart_header" />
+                style="@style/chart_header"
+                android:contentDescription="Types of harassment"/>
 
             <com.github.mikephil.charting.charts.PieChart
                 android:id="@+id/pie_chart"
@@ -56,7 +61,8 @@
             android:layout_marginTop="17dp"
             android:text="@string/total_instances"
             android:textColor="@color/text_white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:contentDescription=""/>
 
         <net.steamcrafted.materialiconlib.MaterialIconView
             android:id="@+id/next"

@@ -64,6 +64,7 @@
                 app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
 
                 <EditText
+                    android:contentDescription="year of birth"
                     android:id="@+id/year"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -94,6 +95,7 @@
                 android:text="@string/blazon_alert" />
 
             <CheckBox
+                android:contentDescription="harassment activity"
                 android:id="@+id/enable_geofence"
                 android:layout_marginTop="16dp"
                 android:text="@string/alert_detail"
@@ -126,6 +128,7 @@
                 android:orientation="horizontal">
 
                 <ToggleButton
+                    android:contentDescription="Man"
                     android:id="@+id/man"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -135,6 +138,7 @@
                     android:textOn="Man" />
 
                 <ToggleButton
+                    android:contentDescription="Woman"
                     android:id="@+id/woman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -145,6 +149,7 @@
                     android:textOn="Woman" />
 
                 <ToggleButton
+                    android:contentDescription="Lesbian"
                     android:id="@+id/lesbian"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -163,6 +168,7 @@
                 android:orientation="horizontal">
 
                 <ToggleButton
+                    android:contentDescription="Colored person"
                     android:id="@+id/poc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -172,6 +178,7 @@
                     android:textOn="Person of Color" />
 
                 <ToggleButton
+                    android:contentDescription="Transgender"
                     android:id="@+id/trans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,6 +197,7 @@
                 android:orientation="horizontal">
 
                 <ToggleButton
+                    android:contentDescription="gay"
                     android:id="@+id/gay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -199,6 +207,7 @@
                     android:textOn="Gay" />
 
                 <ToggleButton
+                    android:contentDescription="bisexual"
                     android:id="@+id/bisexual"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -209,6 +218,7 @@
                     android:textOn="Bisexual" />
 
                 <ToggleButton
+                    android:contentDescription="Minor"
                     android:id="@+id/minor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -227,6 +237,7 @@
                 android:orientation="horizontal">
 
                 <ToggleButton
+                    android:contentDescription="queer"
                     android:id="@+id/queer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -236,6 +247,7 @@
                     android:textOn="Queer" />
 
                 <ToggleButton
+                    android:contentDescription="other"
                     android:id="@+id/other"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -250,6 +262,7 @@
         <View style="@style/Divider"/>
 
         <Button
+            android:contentDescription="logout"
             android:id="@+id/log_out"
             android:text="Log Out"
             android:layout_gravity="center"
