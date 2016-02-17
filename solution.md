@@ -145,3 +145,8 @@ bar_chart_fragment.xml
             android:contentDescription="Back to types of harassement"
             />
 ```
+
+MainActivity.java
+```java
+tabLayout.setContentDescription("Please enter search here");
+```

@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements ProjectXMapFragme
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.stats));
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.profile));
 
-        //tabLayout.setContentDescription()
+        tabLayout.setContentDescription("Please enter search here");
         viewPagerAdapter = new PagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount(), isLoggedIn, googleLogInClient);
         viewPager.setAdapter(viewPagerAdapter);
         viewPager.setOffscreenPageLimit(3);
