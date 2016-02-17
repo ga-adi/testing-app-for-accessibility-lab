@@ -13,6 +13,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:contentDescription="Button"
             android:id="@+id/overview"
             style="@style/button"
             android:layout_width="0dp"
@@ -31,6 +32,7 @@
             android:contentDescription="@string/zipcode_description"/>
 
         <EditText
+            android:contentDescription="location"
             android:id="@+id/zipcode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
