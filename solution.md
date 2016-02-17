@@ -41,11 +41,15 @@ Some features that need to be fixed:
  ```
 
   5. Menu icons need talkback labels.
-[I know this has to be done in Java, since these are tab bar icons, but I'm not sure how to go about it.]
+```java
+tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.map).setContentDescription("View map"));
+tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.stats).setContentDescription("View stats"));
+tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.profile).setContentDescription("View profile"));
+```
 
   6. Icons in profile activity need labels.
   ```xml
-  <ImageView
+<ImageView
     ...
     android:contentDescription="Location icon"
     />
