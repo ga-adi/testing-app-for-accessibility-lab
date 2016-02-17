@@ -58,7 +58,8 @@
             android:layout_marginStart="10dp"
             app:materialIcon="arrow_left_bold"
             app:materialIconColor="#ffffff"
-            />
+            android:contentDescription="Go to pie chart"/>
+
 
         <TextView
             android:id="@+id/instances"
