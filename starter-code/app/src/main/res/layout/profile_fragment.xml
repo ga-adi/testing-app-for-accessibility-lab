@@ -72,7 +72,8 @@
                     android:maxLength="4"
                     android:textColor="#000000"
                     android:textColorHint="#363636"
-                    android:focusable="true"/>
+                    android:focusable="true"
+                    android:contentDescription="enter  year here"/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>
